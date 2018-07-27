@@ -22,5 +22,12 @@ namespace Pizza_POS
             MessageBox.Show("¿E?");
             this.Close();
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            Main_Menu mm = new Main_Menu();
+            mm.Show();
+            this.Hide();
+        }
     }
 }
