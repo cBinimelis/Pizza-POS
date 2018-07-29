@@ -31,5 +31,12 @@ namespace Pizza_POS
 
             }
         }
+
+        private void pb_food_Click(object sender, EventArgs e)
+        {
+            Food_Select fs = new Food_Select();
+            fs.Show();
+            this.Close();
+        }
     }
 }

@@ -16,5 +16,12 @@ namespace Pizza_POS
         {
             InitializeComponent();
         }
+
+        private void pb_mmenu_Click(object sender, EventArgs e)
+        {
+            Main_Menu mm = new Main_Menu();
+            mm.Show();
+            this.Close();
+        }
     }
 }

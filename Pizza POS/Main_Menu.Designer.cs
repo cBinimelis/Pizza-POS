@@ -101,6 +101,7 @@
             this.pb_food.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_food.TabIndex = 5;
             this.pb_food.TabStop = false;
+            this.pb_food.Click += new System.EventHandler(this.pb_food_Click);
             // 
             // label1
             // 
