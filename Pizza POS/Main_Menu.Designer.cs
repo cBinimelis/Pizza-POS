@@ -31,25 +31,25 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Menu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pb_exit = new System.Windows.Forms.PictureBox();
-            this.pb_config = new System.Windows.Forms.PictureBox();
-            this.pb_mmenu = new System.Windows.Forms.PictureBox();
-            this.pb_food = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.pb_exit = new System.Windows.Forms.PictureBox();
+            this.pb_config = new System.Windows.Forms.PictureBox();
+            this.pb_mmenu = new System.Windows.Forms.PictureBox();
+            this.pb_food = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_config)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mmenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_food)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Goldenrod;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.pb_exit);
             this.panel1.Controls.Add(this.pb_config);
             this.panel1.Controls.Add(this.pb_mmenu);
@@ -59,49 +59,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(100, 720);
             this.panel1.TabIndex = 0;
-            // 
-            // pb_exit
-            // 
-            this.pb_exit.Image = ((System.Drawing.Image)(resources.GetObject("pb_exit.Image")));
-            this.pb_exit.Location = new System.Drawing.Point(5, 618);
-            this.pb_exit.Name = "pb_exit";
-            this.pb_exit.Size = new System.Drawing.Size(90, 90);
-            this.pb_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_exit.TabIndex = 6;
-            this.pb_exit.TabStop = false;
-            this.toolTip1.SetToolTip(this.pb_exit, "Salir");
-            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
-            // 
-            // pb_config
-            // 
-            this.pb_config.Image = ((System.Drawing.Image)(resources.GetObject("pb_config.Image")));
-            this.pb_config.Location = new System.Drawing.Point(5, 398);
-            this.pb_config.Name = "pb_config";
-            this.pb_config.Size = new System.Drawing.Size(90, 90);
-            this.pb_config.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_config.TabIndex = 7;
-            this.pb_config.TabStop = false;
-            // 
-            // pb_mmenu
-            // 
-            this.pb_mmenu.Image = ((System.Drawing.Image)(resources.GetObject("pb_mmenu.Image")));
-            this.pb_mmenu.Location = new System.Drawing.Point(5, 134);
-            this.pb_mmenu.Name = "pb_mmenu";
-            this.pb_mmenu.Size = new System.Drawing.Size(90, 90);
-            this.pb_mmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_mmenu.TabIndex = 4;
-            this.pb_mmenu.TabStop = false;
-            // 
-            // pb_food
-            // 
-            this.pb_food.Image = ((System.Drawing.Image)(resources.GetObject("pb_food.Image")));
-            this.pb_food.Location = new System.Drawing.Point(7, 266);
-            this.pb_food.Name = "pb_food";
-            this.pb_food.Size = new System.Drawing.Size(90, 90);
-            this.pb_food.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_food.TabIndex = 5;
-            this.pb_food.TabStop = false;
-            this.pb_food.Click += new System.EventHandler(this.pb_food_Click);
             // 
             // label1
             // 
@@ -131,11 +88,54 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // pb_exit
+            // 
+            this.pb_exit.Image = ((System.Drawing.Image)(resources.GetObject("pb_exit.Image")));
+            this.pb_exit.Location = new System.Drawing.Point(5, 618);
+            this.pb_exit.Name = "pb_exit";
+            this.pb_exit.Size = new System.Drawing.Size(90, 90);
+            this.pb_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pb_exit.TabIndex = 6;
+            this.pb_exit.TabStop = false;
+            this.toolTip1.SetToolTip(this.pb_exit, "Salir");
+            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
+            // 
+            // pb_config
+            // 
+            this.pb_config.Image = ((System.Drawing.Image)(resources.GetObject("pb_config.Image")));
+            this.pb_config.Location = new System.Drawing.Point(5, 398);
+            this.pb_config.Name = "pb_config";
+            this.pb_config.Size = new System.Drawing.Size(90, 90);
+            this.pb_config.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pb_config.TabIndex = 7;
+            this.pb_config.TabStop = false;
+            // 
+            // pb_mmenu
+            // 
+            this.pb_mmenu.Image = ((System.Drawing.Image)(resources.GetObject("pb_mmenu.Image")));
+            this.pb_mmenu.Location = new System.Drawing.Point(5, 134);
+            this.pb_mmenu.Name = "pb_mmenu";
+            this.pb_mmenu.Size = new System.Drawing.Size(90, 90);
+            this.pb_mmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pb_mmenu.TabIndex = 4;
+            this.pb_mmenu.TabStop = false;
+            // 
+            // pb_food
+            // 
+            this.pb_food.Image = ((System.Drawing.Image)(resources.GetObject("pb_food.Image")));
+            this.pb_food.Location = new System.Drawing.Point(7, 266);
+            this.pb_food.Name = "pb_food";
+            this.pb_food.Size = new System.Drawing.Size(90, 90);
+            this.pb_food.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pb_food.TabIndex = 5;
+            this.pb_food.TabStop = false;
+            this.pb_food.Click += new System.EventHandler(this.pb_food_Click);
+            // 
             // Main_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(179)))));
             this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
@@ -145,12 +145,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main_Menu";
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_config)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mmenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_food)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

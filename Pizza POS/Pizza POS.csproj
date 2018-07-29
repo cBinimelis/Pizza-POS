@@ -65,6 +65,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Util.cs" />
     <EmbeddedResource Include="Food_Select.resx">
       <DependentUpon>Food_Select.cs</DependentUpon>
@@ -78,12 +83,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -96,6 +96,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_build_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_exit_to_app_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_home_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_restaurant_menu_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Colors.txt" />
+    <None Include="Resources\Pizza.png" />
+    <None Include="Resources\24px-Health.png" />
+    <None Include="Resources\Roasted_Hazelnuts.png" />
+    <None Include="Resources\Mixed_Seeds.png" />
+    <None Include="Resources\Green_Bean.png" />
+    <None Include="Resources\Shrimp.png" />
+    <None Include="Resources\Egg.png" />
+    <None Include="Resources\Common_Mushroom.png" />
+    <None Include="Resources\pepperoni.png" />
+    <None Include="Resources\Parsnip.png" />
+    <None Include="Resources\Steak2.png" />
+    <None Include="Resources\Cheese.png" />
+    <None Include="Resources\ic_remove_circle_white_18dp.png" />
+    <None Include="Resources\ic_block_white_18dp.png" />
+    <None Include="Resources\ic_add_circle_white_18dp.png" />
+    <None Include="Resources\ic_check_circle_white_18dp.png" />
+    <None Include="Resources\Tomato.png" />
+    <None Include="Resources\Red_Cabbage.png" />
+    <None Include="Resources\Kale.png" />
+    <None Include="Resources\Hot_Pepper.png" />
+    <None Include="Resources\Garlic.png" />
+    <None Include="Resources\Corn.png" />
+    <None Include="Resources\Cauliflower.png" />
+    <None Include="Resources\ic_save_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imgs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

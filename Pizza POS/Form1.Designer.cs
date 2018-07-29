@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@
             this.txt_user = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
@@ -48,7 +48,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(179)))));
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.btn_login);
@@ -63,6 +63,16 @@
             this.panel2.Size = new System.Drawing.Size(390, 690);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(361, 243);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -75,7 +85,7 @@
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.Color.Goldenrod;
+            this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(0)))));
             this.btn_login.FlatAppearance.BorderSize = 0;
             this.btn_login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGoldenrod;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -146,16 +156,6 @@
             this.panel3.Size = new System.Drawing.Size(810, 690);
             this.panel3.TabIndex = 2;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(361, 243);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
             // btn_close
             // 
             this.btn_close.CausesValidation = false;
@@ -174,7 +174,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Goldenrod;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.btn_close);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
