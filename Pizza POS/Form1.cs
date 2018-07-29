@@ -25,6 +25,7 @@ namespace Pizza_POS
 
         private void btn_login_Click(object sender, EventArgs e)
         {
+            Util.setF1(this);
             Main_Menu mm = new Main_Menu();
             mm.Show();
             this.Hide();

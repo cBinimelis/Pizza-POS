@@ -16,5 +16,20 @@ namespace Pizza_POS
         {
             InitializeComponent();
         }
+
+        private void pb_exit_Click(object sender, EventArgs e)
+        {
+            try { 
+            if (MessageBox.Show("¿Estás seguro que deseas salir?", "Confirmación",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Util.getF1().Close();
+            }
+            }
+            catch
+            {
+
+            }
+        }
     }
 }
